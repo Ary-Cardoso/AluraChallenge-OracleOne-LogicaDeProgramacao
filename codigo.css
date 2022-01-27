@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(226, 223, 223);
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(248, 98, 98);
+}
+main {
+
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+main section{
+
+    margin-top: 35px;
+    background-color: white;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    
+    
+}
+
+.codigo {
+    text-align: center;
+    margin-left: 160px;
+}
+
+
+.codigo p {
+    font-size: 18px;
+    margin-top: 65px;
+}
+
+.codigo input {
+    width: 300px;
+    height: 40px; 
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.codigo button {
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: rgb(235, 82, 82);
+    color: white;
+    margin-top: 5px;
+    border-color: rgb(230, 69, 69);
+
+
+}
+#cript {
+    margin-right: 10px;
+}
+
+
+.mensagem {
+    text-align: center;
+    margin-right: 160px;
+    
+}
+
+.mensagem h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.mensagem input {
+    width: 300px;
+    height: 40px;  
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+.mensagem button {
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    margin-left: 215px;
+    margin-top: 5px;
+    background-color: rgb(235, 82, 82);
+    border-color: rgb(230, 69, 69);
+    color: white;
+
+}
