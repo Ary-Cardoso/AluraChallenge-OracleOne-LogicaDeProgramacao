@@ -17,7 +17,6 @@ main {
 }
 
 
-
 main section{
 
     margin-top: 35px;
@@ -71,7 +70,7 @@ main section{
     
 }
 
-.mensagem p {
+.mensagem h2 {
     font-size: 32px;
     margin-top: 12px;
     margin-bottom: 20px;
