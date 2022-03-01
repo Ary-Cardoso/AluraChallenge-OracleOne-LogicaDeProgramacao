@@ -1,6 +1,8 @@
 body {
     background-color: rgb(226, 223, 223);
     font-family: 'Roboto', sans-serif;
+    width: 1080px;
+    margin: 0 auto;
 }
 
 body h1 {
@@ -8,12 +10,10 @@ body h1 {
     text-align: center;
     color: rgb(248, 98, 98);
 }
-main {
 
-    width: 1080px;
-    margin: 0 auto;
+main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
@@ -22,21 +22,20 @@ main section{
     margin-top: 35px;
     background-color: white;
     width: 350px;
-    height: 210px;
+    height: 200px;
     border-radius: 5px;
-    
-    
+    margin: 20px;
 }
 
 .codigo {
     text-align: center;
-    margin-left: 160px;
+    padding-top: 75px;
+    box-sizing: border-box;
 }
 
 
-.codigo p {
+.codigo label{
     font-size: 18px;
-    margin-top: 65px;
 }
 
 .codigo input {
@@ -56,9 +55,8 @@ main section{
     color: white;
     margin-top: 5px;
     border-color: rgb(230, 69, 69);
-
-
 }
+
 #cript {
     margin-right: 10px;
 }
@@ -66,14 +64,12 @@ main section{
 
 .mensagem {
     text-align: center;
-    margin-right: 160px;
-    
 }
 
 .mensagem h2 {
     font-size: 32px;
     margin-top: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 
@@ -95,5 +91,4 @@ main section{
     background-color: rgb(235, 82, 82);
     border-color: rgb(230, 69, 69);
     color: white;
-
 }
