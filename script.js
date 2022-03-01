@@ -1,4 +1,3 @@
-
 const entradaDeTexto = document.querySelector('.entradaDeTexto input');
 
 const botaoCriptografar = document.querySelector('.entradaDeTexto button');
@@ -11,6 +10,7 @@ const botaoCopiar = document.querySelector('.saidaDeTexto button');
 
 botaoCriptografar.addEventListener('click', criptografarTexto);
 botaoDescriptografar.addEventListener('click', descriptografarTexto);
+botaoCopiar.addEventListener('click', copiar);
 
 
 
@@ -30,10 +30,10 @@ function descriptografarTexto() {
     
 } 
 
-botaoCopiar.addEventListener('click', function copiar() {
-    navigator.clipboard.writeText(document.querySelector('.saidaDeTexto input').value)
-
-});
+ 
+function copiar() {
+    navigator.clipboard.writeText(document.querySelector('.saidaDeTexto input').value);
+}
 
 
 
