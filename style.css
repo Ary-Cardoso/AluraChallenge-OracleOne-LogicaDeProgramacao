@@ -1,8 +1,7 @@
 body {
     background-color: rgb(226, 223, 223);
     font-family: 'Roboto', sans-serif;
-    width: 1080px;
-    margin: 0 auto;
+
 }
 
 body h1 {
@@ -12,6 +11,8 @@ body h1 {
 }
 
 main {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
