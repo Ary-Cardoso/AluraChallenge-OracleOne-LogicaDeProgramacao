@@ -11,6 +11,7 @@ body h1 {
 }
 
 main {
+    margin: auto;
     display: flex;
     justify-content: center;
 }
